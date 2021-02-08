@@ -1,0 +1,71 @@
+h1.internal-header {
+  font-size: 40px;
+}
+
+a {
+  color: $lightBlue;
+}
+
+a:hover {
+  color: $cream;
+}
+
+@media (min-width: 992px) {
+  h1.internal-header {
+    font-size: 70px;
+  }
+}
+
+.blog-card {
+  background-color: $cream;
+}
+
+.internal-banner {
+  background-color: $lightBlue;
+}
+
+.post-item {
+  border-bottom: 2px solid $dark;
+}
+
+.entry-summary a {
+  color: $dark;
+}
+
+.post-title > a {
+  text-decoration: none;
+  color: $dark;
+}
+
+.page-numbers {
+  color: $dark;
+}
+
+.page-numbers:hover {
+  color: $red;
+}
+
+.post-meta > a {
+  color: $dark;
+}
+
+.post-title > a:hover {
+  text-decoration: none;
+  color: $red;
+}
+
+.post-meta > a:hover {
+  color: $red;
+}
+
+.back-link {
+  font-size: 20px;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.hover-red:hover {
+  color: $red;
+}

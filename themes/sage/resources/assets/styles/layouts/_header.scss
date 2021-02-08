@@ -1,0 +1,49 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.navbar {
+  background-color: $dark;
+  color: $cream;
+}
+
+.nav-item {
+  text-transform: lowercase;
+}
+
+#top-links .nav-link {
+  padding-left: 15px;
+}
+
+.navbar-toggler-icon {
+  color: $lightBlue;
+  font-size: 30px;
+}
+
+#brand {
+  font-family: "Sirin Stencil", cursive;
+  font-size: 35px;
+  color: $lightBlue;
+}
+
+#brand:hover {
+  font-family: "Sirin Stencil", cursive;
+  font-size: 35px;
+  color: $cream;
+}
+
+#top-links a,
+#bottom-links a,
+#bottom-social a {
+  color: $lightBlue;
+}
+
+#top-links a:hover,
+#bottom-links a:hover,
+#bottom-social a:hover {
+  color: $cream;
+}

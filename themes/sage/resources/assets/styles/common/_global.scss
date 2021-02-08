@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: $dark;
+  padding-top: 60px;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.link-dark {
+  color: $dark;
+}
+
+.link-dark:hover {
+  color: $red;
+}

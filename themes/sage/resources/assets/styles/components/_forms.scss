@@ -1,0 +1,57 @@
+label {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/** Search form */
+.search-form {
+  @extend .form-inline;
+}
+
+.search-form label {
+  @extend .form-group;
+
+  font-weight: normal;
+}
+
+.search-form .search-field {
+  @extend .form-control;
+}
+
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+/* email signup */
+.signup-card {
+  background-color: $red;
+}
+
+.email-input {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+input {
+  background-color: $darkBlue;
+  color: $cream;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: $cream;
+}
+
+#btn-submit {
+  background-color: $dark;
+  border: 0;
+  transition: none;
+}
+
+#btn-submit:hover,
+#btn-submit:active {
+  background-color: white;
+  color: black;
+  border: 0;
+}
